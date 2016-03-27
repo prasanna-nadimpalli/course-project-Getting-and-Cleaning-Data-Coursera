@@ -1,7 +1,4 @@
----
-title: "Codebook"
-output: html_document
----
+# Codebook
 
 # Dataset:
 
@@ -63,106 +60,106 @@ Info:
   f at the beginning: Fast Fourier Transform (FFT) signals  
   '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions  
 
-    Time domain body acceleration mean along X, Y, and Z:
-        tBodyAccmeanX
-        tBodyAccmeanY
-        tBodyAccmeanZ
-    Time domain body acceleration standard deviation along X, Y, and Z:
-        tBodyAccstdX
-        tBodyAccstdY
-        tBodyAccstdZ
-    Time domain gravity acceleration mean along X, Y, and Z:
-        tGravityAccmeanX
-        tGravityAccmeanY
-        tGravityAccmeanZ
-    Time domain gravity acceleration standard deviation along X, Y, and Z:
-        tGravityAccstdX
-        tGravityAccstdY
-        tGravityAccstdZ
-    Time domain body jerk mean along X, Y, and Z:
-        tBodyAccJerkmeanX
-        tBodyAccJerkmeanY
-        tBodyAccJerkmeanZ
-    Time domain body jerk standard deviation along X, Y, and Z:
-        tBodyAccJerkstdX
-        tBodyAccJerkstdY
-        tBodyAccJerkstdZ
-    Time domain gyroscope mean along X, Y, and Z:
-        tBodyGyromeanX
-        tBodyGyromeanY
-        tBodyGyromeanZ
-    Time domain gyroscope standard deviation along X, Y, and Z:
-        tBodyGyrostdX
-        tBodyGyrostdY
-        tBodyGyrostdZ
-    Time domain gyroscope jerk mean along X, Y, and Z:
-        tBodyGyroJerkmeanX
-        tBodyGyroJerkmeanY
-        tBodyGyroJerkmeanZ
-    Time domain gyroscope jerk standard deviation along X, Y, and Z:
-        tBodyGyroJerkstdX
-        tBodyGyroJerkstdY
-        tBodyGyroJerkstdZ
-    Time domain body acceleration magnitude mean:
-        tBodyAccMagmean
-    Time domain body acceleration magnitude standard deviation:
-        tBodyAccMagstd
-    Time domain gravity acceleration magnitude mean:
-        tGravityAccMagmean
-    Time domain gravity acceleration magnitude standard deviation:
-        tGravityAccMagstd
-    Time domain body jerk magnitude mean:
-        tBodyAccJerkMagmean
-    Time domain body jerk magnitude standard deviation:
-        tBodyAccJerkMagstd
-    Time domain gyroscope magnitude mean:
-        tBodyGyroMagmean
-    Time domain gyroscope magnitude standard deviation:
-        tBodyGyroMagstd
-    Time domain gyroscope jerk magnitude mean:
-        tBodyGyroJerkMagmean
-    Time domain gyroscope jerk magnitude standard deviation:
-        tBodyGyroJerkMagstd
-    Frequency domain body acceleration mean along X, Y, and Z:
-        fBodyAccmeanX
-        fBodyAccmeanY
-        fBodyAccmeanZ
-    Frequency domain body acceleration standard deviation along X, Y, and Z:
-        fBodyAccstdX
-        fBodyAccstdY
-        fBodyAccstdZ
-    Frequency domain body jerk mean along X, Y, and Z:
-        fBodyAccJerkmeanX
-        fBodyAccJerkmeanY
-        fBodyAccJerkmeanZ
-    Frequency domain body jerk standard deviation along X, Y, and Z:
-        fBodyAccJerkstdX
-        fBodyAccJerkstdY
-        fBodyAccJerkstdZ
-    Frequency domain gyroscope mean along X, Y, and Z:
-        fBodyGyromeanX
-        fBodyGyromeanY
-        fBodyGyromeanZ
-    Frequency domain gyroscope standard deviation along X, Y, and Z:
-        fBodyGyrostdX
-        fBodyGyrostdY
-        fBodyGyrostdZ
-    Frequency domain body acceleration magnitude mean:
-        fBodyAccMagmean
-    Frequency domain body acceleration magnitude standard deviation:
-        fBodyAccMagstd
-    Frequency domain body jerk magnitude mean:
-        fBodyBodyAccJerkMagmean
-    Frequency domain body jerk magnitude standard deviation:
-        fBodyBodyAccJerkMagstd
-    Frequency domain gyroscope magnitude mean:
-        fBodyBodyGyroMagmean
-    Frequency domain gyroscope magnitude standard deviation:
-        fBodyBodyGyroMagstd
-    Frequency domain gyroscope jerk magnitude mean:
-        fBodyBodyGyroJerkMagmean
-    Frequency domain gyroscope jerk magnitude standard deviation:
-        fBodyBodyGyroJerkMagstd
+    Time domain body acceleration mean along X, Y, and Z:  
+        tBodyAccmeanX  
+        tBodyAccmeanY  
+        tBodyAccmeanZ  
+    Time domain body acceleration standard deviation along X, Y, and Z:  
+        tBodyAccstdX  
+        tBodyAccstdY  
+        tBodyAccstdZ  
+    Time domain gravity acceleration mean along X, Y, and Z:  
+        tGravityAccmeanX  
+        tGravityAccmeanY  
+        tGravityAccmeanZ  
+    Time domain gravity acceleration standard deviation along X, Y, and Z:  
+        tGravityAccstdX  
+        tGravityAccstdY  
+        tGravityAccstdZ  
+    Time domain body jerk mean along X, Y, and Z:  
+        tBodyAccJerkmeanX  
+        tBodyAccJerkmeanY  
+        tBodyAccJerkmeanZ  
+    Time domain body jerk standard deviation along X, Y, and Z:  
+        tBodyAccJerkstdX  
+        tBodyAccJerkstdY  
+        tBodyAccJerkstdZ  
+    Time domain gyroscope mean along X, Y, and Z:  
+        tBodyGyromeanX  
+        tBodyGyromeanY  
+        tBodyGyromeanZ  
+    Time domain gyroscope standard deviation along X, Y, and Z:  
+        tBodyGyrostdX  
+        tBodyGyrostdY  
+        tBodyGyrostdZ  
+    Time domain gyroscope jerk mean along X, Y, and Z:  
+        tBodyGyroJerkmeanX  
+        tBodyGyroJerkmeanY  
+        tBodyGyroJerkmeanZ  
+    Time domain gyroscope jerk standard deviation along X, Y, and Z:  
+        tBodyGyroJerkstdX  
+        tBodyGyroJerkstdY  
+        tBodyGyroJerkstdZ  
+    Time domain body acceleration magnitude mean:  
+        tBodyAccMagmean  
+    Time domain body acceleration magnitude standard deviation:  
+        tBodyAccMagstd  
+    Time domain gravity acceleration magnitude mean:  
+        tGravityAccMagmean  
+    Time domain gravity acceleration magnitude standard deviation:  
+        tGravityAccMagstd  
+    Time domain body jerk magnitude mean:  
+        tBodyAccJerkMagmean  
+    Time domain body jerk magnitude standard deviation:  
+        tBodyAccJerkMagstd  
+    Time domain gyroscope magnitude mean:  
+        tBodyGyroMagmean  
+    Time domain gyroscope magnitude standard deviation:  
+        tBodyGyroMagstd  
+    Time domain gyroscope jerk magnitude mean:  
+        tBodyGyroJerkMagmean  
+    Time domain gyroscope jerk magnitude standard deviation:  
+        tBodyGyroJerkMagstd  
+    Frequency domain body acceleration mean along X, Y, and Z:  
+        fBodyAccmeanX  
+        fBodyAccmeanY  
+        fBodyAccmeanZ  
+    Frequency domain body acceleration standard deviation along X, Y, and Z:  
+        fBodyAccstdX  
+        fBodyAccstdY  
+        fBodyAccstdZ  
+    Frequency domain body jerk mean along X, Y, and Z:  
+        fBodyAccJerkmeanX  
+        fBodyAccJerkmeanY  
+        fBodyAccJerkmeanZ  
+    Frequency domain body jerk standard deviation along X, Y, and Z:  
+        fBodyAccJerkstdX  
+        fBodyAccJerkstdY  
+        fBodyAccJerkstdZ  
+    Frequency domain gyroscope mean along X, Y, and Z:  
+        fBodyGyromeanX  
+        fBodyGyromeanY  
+        fBodyGyromeanZ  
+    Frequency domain gyroscope standard deviation along X, Y, and Z:  
+        fBodyGyrostdX  
+        fBodyGyrostdY  
+        fBodyGyrostdZ  
+    Frequency domain body acceleration magnitude mean:  
+        fBodyAccMagmean  
+    Frequency domain body acceleration magnitude standard deviation:  
+        fBodyAccMagstd  
+    Frequency domain body jerk magnitude mean:  
+        fBodyBodyAccJerkMagmean  
+    Frequency domain body jerk magnitude standard deviation:  
+        fBodyBodyAccJerkMagstd  
+    Frequency domain gyroscope magnitude mean:  
+        fBodyBodyGyroMagmean  
+    Frequency domain gyroscope magnitude standard deviation:  
+        fBodyBodyGyroMagstd  
+    Frequency domain gyroscope jerk magnitude mean:  
+        fBodyBodyGyroJerkMagmean  
+    Frequency domain gyroscope jerk magnitude standard deviation:  
+        fBodyBodyGyroJerkMagstd  
         
 # Data processing
 
